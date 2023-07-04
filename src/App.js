@@ -1,7 +1,10 @@
 import React from "react";
+import ExpenseItem from "./components/ExpenseItem";
 
 const App =()=>{
-  return <h2>Hello World</h2>
+  return <div> <h2>Hello World</h2>
+  <ExpenseItem />
+  </div>
 }
 
 export default App;
