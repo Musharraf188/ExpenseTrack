@@ -1,9 +1,9 @@
 import React from "react";
 import ExpenseItem from "./components/ExpenseItem";
 
-const App =()=>{
-  return <div> <h2>Hello World</h2>
-  <ExpenseItem />
+const App = () => {
+  return <div>
+    <ExpenseItem />
   </div>
 }
 
